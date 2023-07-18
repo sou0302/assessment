@@ -84,11 +84,3 @@ let result = answers[index];
 result = result.replaceAll('###userName###', userName);
 return result;
 }
-
-// テストコード
-console.assert(
-    assessment('太郎') === assessment('太郎'),
-    '入力が同じ名前なら同じ診断結果を出力する処理が正しくありません。'
-  );
-console.log(assessment('太郎'));
-console.log(assessment('太郎'));
